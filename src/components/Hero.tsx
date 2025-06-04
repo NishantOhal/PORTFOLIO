@@ -1,5 +1,5 @@
 import profileImage from '../components/images/profile.jpg';
-import resumepdf from '../components/images/nishant_resume (1).pdf';
+import resumepdf from '../components/images/Nishant-resume.pdf';
 import './hero.css'; // Import the CSS file for animations
 
 const Hero = () => {
