@@ -1,4 +1,4 @@
-import resumepdf from '../components/images/nishant_resume (1).pdf';
+import resumepdf from '../components/images/Nishant-resume.pdf';
 import logo from '../components/images/Name Logo.png';
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
