@@ -8,9 +8,16 @@ import srk from '../components/images/srk-website.png';
 import age from '../components/images/agecalc.png';
 import weather from '../components/images/weatherly.png';
 import Driplab from '../components/images/driplab (2).png';
+import Seed from '../components/images/Mockup content.png';
 
 
 const projects = [
+  {
+    title: 'Seed Catalog App UI',
+    description: 'Designed a clean, user-friendly mobile UI for browsing and buying flower seeds. Includes filtering, product details, and smooth navigation for a seamless shopping experience.',
+    image: Seed,
+    link: 'https://drive.google.com/file/d/1Gf_UaNhoVPvWsA5mNJS3biEv9c_auqge/view?usp=drive_link'
+  },
   {
     title: 'Driplab-Fashion Clothing App Design',
     description: 'DripLab is a sleek, user-friendly fashion app designed in Figma, offering intuitive navigation and a seamless shopping experience with clean visuals.',
