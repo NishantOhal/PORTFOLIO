@@ -1,4 +1,4 @@
-import profileImage from '../components/images/profile.jpg';
+import profileImage from '../components/images/Nish.jpg';
 import resumepdf from '../components/images/Nishant-resume.pdf';
 import './hero.css'; // Import the CSS file for animations
 
