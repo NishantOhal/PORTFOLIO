@@ -8,9 +8,30 @@ import srk from '../components/images/srk-website.png';
 import age from '../components/images/agecalc.png';
 import weather from '../components/images/weatherly.png';
 import Driplab from '../components/images/driplab (2).png';
-
+import Seed from '../components/images/Mockup content.png';
+import heroImg from './images/learntech-hero.png';
+import lokhero from './images/Lokalogy_hero.png'
 
 const projects = [
+  {
+  title: 'Lokalogy - About Us Page Design',
+  description: 'An earthy, narrative-driven About Us page for an organic e-commerce brand, combining storytelling, brand values, and strong visuals to build trust and engagement.',
+  image: lokhero,
+  link: '/case-study/lokalogy' // This should match your route path
+  },
+
+  {
+  title: 'LearnTech - EdTech Homepage Design',
+  description: 'A clean, conversion-driven homepage for an online learning platform, designed in Figma with bold visuals, structured layouts, and CTAs tailored for learners',
+  image: heroImg,
+  link: '/case-study/learntech' // This should match your route path
+  },
+    {
+    title: 'Seed Catalog App UI',
+    description: 'Designed a clean, user-friendly mobile UI for browsing and buying flower seeds. Includes filtering, product details, and smooth navigation for a seamless shopping experience.',
+    image: Seed,
+    link: 'https://drive.google.com/file/d/1Gf_UaNhoVPvWsA5mNJS3biEv9c_auqge/view?usp=drive_link'
+  },
   {
     title: 'Driplab-Fashion Clothing App Design',
     description: 'DripLab is a sleek, user-friendly fashion app designed in Figma, offering intuitive navigation and a seamless shopping experience with clean visuals.',

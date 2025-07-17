@@ -25,6 +25,7 @@ const Navbar = () => {
         {/* Desktop Navigation */}
         <div className="hidden md:flex justify-center space-x-16 mt-5 text-3xl font-semibold">
           <a href="#skills" className="hover:text-gray-600">Skills</a>
+          <a href="#education" className="hover:text-gray-600">Education</a>
           <a href="#projects" className="hover:text-gray-600">Projects</a>
           <a href={resumepdf} target="_blank" className="hover:text-gray-600">Resume</a>
           <a href="#certifications" className="hover:text-gray-600">Certification</a>
@@ -43,6 +44,7 @@ const Navbar = () => {
         {isOpen && (
           <div className="md:hidden mt-3 space-y-3 text-center text-base font-medium">
             <a href="#skills" className="block hover:text-gray-600">Skills</a>
+            <a href="#education" className="hover:text-gray-600">Education</a>
             <a href="#projects" className="block hover:text-gray-600">Projects</a>
             <a href={resumepdf} target="_blank" className="block hover:text-gray-600">Resume</a>
             <a href="#certifications" className="block hover:text-gray-600">Certification</a>
