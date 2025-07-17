@@ -7,7 +7,7 @@ import cert6 from '../components/images/deloitte.png';
 import cert7 from '../components/images/codsoft.png';
 import cert8 from '../components/images/certificate.png';
 import cert9 from '../components/images/Nptel.png';
-
+import cert10 from '../components/images/excel.png';
 const certifications = [
   {
     title: 'HP LIFE-Data Science & Analytics',
@@ -24,6 +24,14 @@ const certifications = [
       'Credential ID c7NgLu5qi5HzkMysa '],
     image: cert6,
     link: 'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_c7NgLu5qi5HzkMysa_1746705708933_completion_certificate.pdf'
+  },
+  {
+    title: 'ONEROADMAP-Excel',
+    description:  [
+      'Issued May 2025',
+      'Credential ID CERT-2006D288 '],
+    image: cert10,
+    link: 'https://oneroadmap.io/skills/excel/certificate/CERT-2006D288'
   },  
   {
     title: 'LETSUPGRADE-Figma Bootcamp',
